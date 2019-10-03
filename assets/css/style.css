@@ -1,0 +1,210 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4UVSsSM8C4lJt2UYDXm7ER1ZH4szEzfreySZXpdPi5HBt0X-O-g);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-color: white;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    top: 0%;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
+h1{
+    background-color: tan;
+    text-align: center;
+    margin-top: 0%;
+    float: left;
+    height: 42px;
+    padding-top: 8px;
+    margin-left: 95px;
+}
+.navagation{
+    float: right;
+    margin-right: 95px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h2{
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    background-color: tan;
+    width: 150px;
+}
+#bio-image{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+}
+#content{
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#gallery{
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#contact{
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h3{
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    background-color: tan;
+    width: 150px;
+} 
+h4{
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    background-color: tan;
+    width: 150px;
+}
+#daisy{
+    width: 250px;
+    height: 180px;
+    padding-right: 10px;
+}
+#daisy:hover{
+    padding:1px;
+    border:1px solid #021a40;
+}
+/* .textdaisy .text-right{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: -170px;
+    right: 0;
+    top: 65%;
+    text-align: center;
+    width: 52%;
+    background-color: tan;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+#sun{
+    width: 250px;
+    height: 180px;
+}
+#sun:hover{
+    padding:1px;
+    border:1px solid #021a40;
+}
+/* .sun .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+} */
+#cow{
+    width: 250px;
+    height: 180px;
+    padding-right: 10px;
+}
+#cow:hover{
+    padding:1px;
+    border:1px solid #021a40;
+}
+/* .cow .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+} */
+#angrypepe{
+    width: 250px;
+    height: 180px;
+}
+#angrypepe:hover{
+    padding:1px;
+    border:1px solid #021a40;
+}
+/* .textpepe .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+} */
+#top{
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 200px;
+    display: flex;
+}
+#bottom{
+    padding-left: 20px;
+    display: flex;
+    padding-bottom: 200px;
+}
+#footer{
+    width: 100%;
+    border-top: 8px solid tan;
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    background: #333;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 640px) {
+    h1{
+        margin-left: 0%;
+    }
+    #content{
+        width: auto;
+    }
+    .navagation{
+        margin-right: auto;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    h1{
+        margin-left: 0%;
+    }
+    #content{
+        width: auto;
+    }
+    .navagation{
+        margin-right: auto;
+    }
+  }
+  @media screen and (max-width: 980px) {
+    h1{
+        margin-left: 0%;
+    }
+    #content{
+        width: auto;
+    }
+    .navagation{
+        margin-right: auto;
+    }
+  }
